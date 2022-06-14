@@ -1,0 +1,32 @@
+[
+  {
+    "index_name": "wirtschaftsinformatik"
+  },
+  {
+    "settings": {
+      "analysis": {
+        "analyzer": {
+          "standard_analyzer": {
+            "type": "standard"
+          }
+        }
+      }
+    },
+    "mappings": {
+      "properties": {
+        "document_title": {
+          "type": "text",
+          "analyzer": "standard_analyzer"
+        },
+        "document_text": {
+          "type": "text",
+          "analyzer": "standard_analyzer"
+        },
+        "link": {
+          "type": "text",
+          "analyzer": "standard_analyzer"
+        }
+      }
+    }
+  }
+]
