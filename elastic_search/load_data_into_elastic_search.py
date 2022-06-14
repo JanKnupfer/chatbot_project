@@ -1,33 +1,38 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
+# In[ ]:
 from IPython import get_ipython
-
-from elastic_search.utilities.login import login
 
 get_ipython().run_line_magic('pip', 'install elasticsearch')
 
+# In[ ]:
 
-# In[48]:
+
+from elastic_search.utilities.login import login
+import json
+import time
+
+# # Variables
+
+# In[ ]:
 
 
-# variables
-index_name = 'wirtschaftsinformatik'
-
+# Get index name
+with open('..\\elastic_search\\utilities\\index_config.json') as file:
+    index_name = json.load(file)[0]['index_name']
 
 # # Connect to elastic search
 
-# In[49]:
+# In[ ]:
 
 
-
-es = login()
+es = es = login()
 
 
 # # delete index if it already exists
 
-# In[50]:
+# In[ ]:
 
 
 print('Creating new database...')
@@ -46,13 +51,13 @@ else:
 
 # # create new index
 
-# In[51]:
+# In[ ]:
 
 
 print('Creating index...')
 
-with open('utilities/index_config.json') as file:
-    index_config = json.load(file)
+with open('..\\elastic_search\\utilities\\index_config.json') as file:
+    index_config = json.load(file)[1]
 
 if not es.indices.exists(index=index_name):
     es.indices.create(index=index_name, body=index_config, ignore=400)
@@ -63,15 +68,13 @@ else:
 
 # # populate index
 
-# In[52]:
+# In[ ]:
 
-
-import time
 
 print("Populating index...")
 
 wrong_status = False
-with open("data/wirtschaftsinformatik.json") as file:
+with open('..\\elastic_search\\data\\wirtschaftsinformatik.json') as file:
     data = json.load(file)
     for document in data:
         status = es.index(index=index_name, body=document)

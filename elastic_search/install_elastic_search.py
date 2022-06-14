@@ -1,19 +1,43 @@
-import wget
-import zipfile
-from os.path import exists
-from elastic_search.utilities.progress_bar import bar_progress
+#!/usr/bin/env python
+# coding: utf-8
 
+# In[ ]:
+from IPython import get_ipython
+
+get_ipython().run_line_magic('pip', 'install wget')
+
+# In[3]:
+
+
+import zipfile
 import os
+import wget
+import sys
+from os.path import exists
+
+# In[4]:
+
 
 # Variables
-store_dir = os.getcwd() + '\\elastic_search'
+store_dir = os.getcwd()
 file_name_zip = 'elasticsearch.zip'
 file_path_zip = store_dir + '\\' + file_name_zip
 extraction_directory = store_dir + '\\elasticsearch'
 
 download_url = 'https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.2.2-windows-x86_64.zip'
 
+
 # # Download
+
+# In[ ]:
+
+
+# create this bar_progress method which is invoked automatically from wget
+def bar_progress(current, total, width=80):
+    progress_message = "Downloading: %d%% [%d / %d] bytes"%(current/total*100, current, total)
+    # Don't use print() as it will print in new line every time.
+    sys.stdout.write("\r" + progress_message)
+    sys.stdout.flush()
 
 
 file_exists = exists(store_dir + '\\' + file_name_zip)
@@ -22,6 +46,8 @@ if not file_exists:
     print("File already downloaded")
 
 # # Unzip
+
+# In[ ]:
 
 
 file_exists = exists(store_dir + '\\elasticsearch\\elasticsearch-8.2.2')
@@ -32,6 +58,9 @@ with zipfile.ZipFile(file_path_zip, 'r') as zip_ref:
         zip_ref.extractall(extraction_directory)
 
 # # Start es
+
+# In[ ]:
+
 
 print("Starting elastic search")
 print("Wait until elastic search displays your login password")
