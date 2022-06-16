@@ -1,0 +1,16 @@
+.hero {
+padding-left: 30px;
+padding-right: 30px;
+}
+.is-human{
+background-color: #b9f;
+}
+.is-btn{
+display: flex;
+flex-direction: row;
+padding-top: 100px;
+padding-left: 270px;
+}
+.button-icon{
+padding-right: 10px;
+}

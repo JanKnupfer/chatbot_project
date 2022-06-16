@@ -9,4 +9,10 @@ If you want to run this application yourself download the repository.
 Run the install_elastic_search.py script, then the load_data_into_elastic_search.py script.
 Start the Django server with the command:
 
+## How to ChatbotUI
+1. settings.py
+2. urls.py
+3. chatbotUI App hinzufügen
+4. urls.py in App Ordner
+5. simple bulma app
 [//]: # (TODO)

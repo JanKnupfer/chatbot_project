@@ -2,9 +2,6 @@
 # coding: utf-8
 
 # In[ ]:
-from IPython import get_ipython
-
-get_ipython().run_line_magic('pip', 'install wget')
 
 # In[3]:
 
