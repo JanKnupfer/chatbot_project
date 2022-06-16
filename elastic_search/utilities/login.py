@@ -1,16 +1,17 @@
 import json
-import sys
-from elasticsearch import Elasticsearch
 import os
+import sys
+
+from elasticsearch import Elasticsearch
 
 
 def get_root_dir():
-    return os.path.abspath('readme.md').split('chatbot_project')[0] + 'chatbot_project'
+    return os.path.abspath('readme.md').split('elastic_search')[0]
 
 
 def login():
     print('Connecting to elastic search...')
-    with open(f'{get_root_dir()}\\elastic_search\\credentials.json') as file:
+    with open(f'{get_root_dir()}elastic_search\\credentials.json') as file:
         data = json.load(file)
         elastic_user = data['username']
         elastic_password = data['password']
@@ -23,7 +24,7 @@ def login():
         elastic_url,
         verify_certs=False,
         basic_auth=(elastic_user, elastic_password)
-        )
+    )
 
     # test connection
     if not es.ping():
