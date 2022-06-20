@@ -1,0 +1,324 @@
+{
+  "question2":{
+    "answers": {
+      "answer_start": [
+        214
+      ],
+      "text":[
+
+      ]
+    },
+    "context": "Unsere Studierenden des Studiengangs Wirtschaftsinformatik mit der Studienrichtung Application Management erlernen, wie IT-Systeme strukturiert entwickelt, systematisch eingeführt und zuverlässig betrieben werden. Im Fokus des dualen Studiums stehen außerdem aktuelle IT-Technologien, Methoden des Software Engineering sowie Grundlagen der Betriebswirtschaftslehre.",
+    "id": "",
+    "question": "Was steht im Fokus des Studiums?",
+    "title": ""
+  },
+  "question3":{
+    "answers": {
+      "answer_start": [
+        116
+      ],
+      "text":[
+
+      ]
+    },
+    "context": "Unsere Studierenden des Studiengangs Wirtschaftsinformatik mit der Studienrichtung Application Management erlernen, wie IT-Systeme strukturiert entwickelt, systematisch eingeführt und zuverlässig betrieben werden. Im Fokus des dualen Studiums stehen außerdem aktuelle IT-Technologien, Methoden des Software Engineering sowie Grundlagen der Betriebswirtschaftslehre.",
+    "id": "",
+    "question": "Was lernt man während des Studiums?",
+    "title": ""
+  },
+  "question4":{
+    "answers": {
+      "answer_start": [
+        52
+      ],
+      "text":[
+
+      ]
+    },
+    "context": "Häufige Einsatzgebiete unserer Absolvent*innen sind Software-Entwicklung, IT-Management, Betreuung von Standard-Software wie ERP-Systemen, Projektleitung, Optimierung von Geschäftsprozessen und IT-Architektur. Die Studienrichtung bereitet auch auf eine Tätigkeit als Kundenmanager*in vor, bei der sie als Schnittstelle zwischen Fachabteilungen (Auftraggeber von IT-Projekten) und IT-Bereichen (Auftragnehmer) im Einsatz sind.",
+    "id": "",
+    "question": "Als was kann man nach dem Studium arbeiten?",
+    "title": ""
+  },
+  "question5":{
+    "answers": {
+      "answer_start": [
+        456
+      ],
+      "text":[
+
+      ]
+    },
+    "context": "Wirtschaftsinformatik verbindet Wirtschaftswissenschaften und Informatik. Studierende der Studienrichtung Wirtschaftsinformatik-Application Management der DHBW Stuttgart erlernen, wie IT-Systeme strukturiert entwickelt, systematisch eingeführt und zuverlässig betrieben werden können. Im Fokus des Studiums: aktuelle IT-Technologien, Methoden des Software Engineering, Grundlagen der Betriebswirtschaftslehre, Absolvent*innen sind nach dem Studium qualifiziert, in IT-Projekten kompetent mitzuarbeiten Projekte sicher zu leiten IT-Systeme bzw. ganze IT-Landschaften zu beherrschen und zu überwachen Neben Motivation, Kommunikationsfähigkeit, Belastbarkeit und Flexibilität sollten angehende Wirtschaftsinformatiker*innen insbesondere über ein ausgeprägtes analytisch-logisches Denkvermögen verfügen.",
+    "id": "",
+    "question": "Kann man nach dem Studium im Projektmanagement arbeiten?",
+    "title": ""
+  },
+  "question6":{
+    "answers": {
+      "answer_start": [
+        
+      ],
+      "text":[
+        54
+      ]
+    },
+    "context": "Wirtschaftsinformatiker*innen benötigen gleichermaßen Informatikkenntnisse und betriebswirtschaftliches Fachwissen. Beide Themenbereiche werden im Studium eingehend behandelt: Informatik: aktuelle Methoden der Informatik (Objektorientierte Modellierung, Methoden des Projektmanagements, Business Process Modeling), moderne IT-Technologien für die Entwicklung von Software-Systemen (z. B. Java Enterprise Edition und Web-Services), Grundlagen der Informationstechnik. Betriebswirtschaftslehre: Fachterminologie und zentrale Konzepte der Betriebswirtschaftslehre, um erfolgreich betriebliche Informationssysteme entwickeln zu können, Methoden der Betriebswirtschaftslehre, um im Projektmanagement sicherzustellen, dass Projektvorgaben zu Kosten, Zeit und Qualität eingehalten werden. Zusatzkompetenzen: VWL, Recht, Mathematik, Sprachveranstaltungen Seminare zum Ausbau der Sozialkompetenz. Auslandserfahrung Der Studiengang Wirtschaftsinformatik bietet seinen Studierenden die Möglichkeit, in der Theoriephase ein Auslandssemester an einer Partneruniversität in Großbritannien, USA, Frankreich, Australien, Irland, Skandinavien und Singapur zu absolvieren. Ein solches Auslandssemester fügt sich nahtlos in den Studienablauf ein.",
+    "id": "",
+    "question": "Welches Fachwissen benötigen Wirtschaftsinformatiker?",
+    "title": ""
+  },
+  "question7":{
+  "answers": {
+    "answer_start": [
+      57
+    ],
+    "text":[
+
+    ]
+  },
+  "context": "Der Studienverlauf stellt kursübergreifend die zeitliche Aufteilung in Theorie- und Praxisphasen für die einzelnen Jahrgänge dar. Außerdem enthält er wichtige Termine, die schon vor Beginn des Studiums feststehen. Die Fakultät Wirtschaft empfiehlt allen Studienanfänger*innen zu Beginn des Studiums, unabhängig von der erreichten Abiturnote, die Teilnahme am Vorkurs Mathematik, um einen möglichst gleichen und für das Studium optimalen Kenntnisstand zu erzielen.",
+    "id": "",
+    "question": "Wie ist das Studium aufgebaut?",
+    "title": ""
+  },
+  "question8":{
+    "answers": {
+      "answer_start": [
+        0
+      ],
+      "text":[
+
+      ]
+    },
+    "context": "Für besonders qualifizierte Absolvent*innen bietet die DHBW ein berufsintegrierendes und berufsbegleitendes Master-Programm mit Profil 'Wirtschaftsinformatik' mit Abschluss Master of Science (M.Sc.) an.",
+    "id": "",
+    "question": "Kann man nach dem Studium einen Master machen?",
+    "title": ""
+  },
+  "question9":{
+    "answers": {
+      "answer_start": [
+        44
+      ],
+      "text":[
+
+      ]
+    },
+    "context": "Für besonders qualifizierte Absolvent*innen bietet die DHBW ein berufsintegrierendes und berufsbegleitendes Master-Programm mit Profil 'Wirtschaftsinformatik' mit Abschluss Master of Science (M.Sc.) an.",
+    "id": "",
+    "question": "Kann man an der DHWB in Wirtschaftsinformatik einen Masterstudiengang belegen?",
+    "title": ""
+  },
+  "question10":{
+    "answers": {
+      "answer_start": [
+        64
+      ],
+      "text":[
+
+      ]
+    },
+    "context": "Für besonders qualifizierte Absolvent*innen bietet die DHBW ein berufsintegrierendes und berufsbegleitendes Master-Programm mit Profil 'Wirtschaftsinformatik' mit Abschluss Master of Science (M.Sc.) an.",
+    "id": "",
+    "question": "Ist der Master an der DHBW berufsbegleitend?",
+    "title": ""
+  },
+  "question11":{
+    "answers": {
+      "answer_start": [
+        64
+      ],
+      "text":[
+
+      ]
+    },
+    "context": "Für besonders qualifizierte Absolvent*innen bietet die DHBW ein berufsintegrierendes und berufsbegleitendes Master-Programm mit Profil 'Wirtschaftsinformatik' mit Abschluss Master of Science (M.Sc.) an.",
+    "id": "",
+    "question": "Kann man während des Masterstudiums arbeiten?",
+    "title": ""
+  },
+  "question12":{
+    "answers": {
+      "answer_start": [
+        173
+      ],
+      "text":[
+
+      ]
+    },
+    "context": "Für besonders qualifizierte Absolvent*innen bietet die DHBW ein berufsintegrierendes und berufsbegleitendes Master-Programm mit Profil 'Wirtschaftsinformatik' mit Abschluss Master of Science (M.Sc.) an.",
+    "id": "",
+    "question": "Welchen Titel erhält man nach dem Masterstudium?",
+    "title": ""
+  },
+  "question13":{
+  "answers": {
+    "answer_start": [
+      172
+    ],
+    "text":[
+
+    ]
+  },
+  "context": "Der Studienverlauf stellt kursübergreifend die zeitliche Aufteilung in Theorie- und Praxisphasen für die einzelnen Jahrgänge dar. Außerdem enthält er wichtige Termine, die schon vor Beginn des Studiums feststehen. Die Fakultät Wirtschaft empfiehlt allen Studienanfänger*innen zu Beginn des Studiums, unabhängig von der erreichten Abiturnote, die Teilnahme am Vorkurs Mathematik, um einen möglichst gleichen und für das Studium optimalen Kenntnisstand zu erzielen.",
+    "id": "",
+    "question": "Stehen wichtige Termine für die jeweiligen Studienjahre bereits fest?",
+    "title": ""
+  },
+  "question14":{
+  "answers": {
+    "answer_start": [
+      238
+    ],
+    "text":[
+
+    ]
+  },
+  "context": "Der Studienverlauf stellt kursübergreifend die zeitliche Aufteilung in Theorie- und Praxisphasen für die einzelnen Jahrgänge dar. Außerdem enthält er wichtige Termine, die schon vor Beginn des Studiums feststehen. Die Fakultät Wirtschaft empfiehlt allen Studienanfänger*innen zu Beginn des Studiums, unabhängig von der erreichten Abiturnote, die Teilnahme am Vorkurs Mathematik, um einen möglichst gleichen und für das Studium optimalen Kenntnisstand zu erzielen.",
+    "id": "",
+    "question": "Muss man vor dem Studium einen Mathevorkurs besuchen?",
+    "title": ""
+  },
+  "question15":{
+  "answers": {
+    "answer_start": [
+      300
+    ],
+    "text":[
+
+    ]
+  },
+  "context": "Der Studienverlauf stellt kursübergreifend die zeitliche Aufteilung in Theorie- und Praxisphasen für die einzelnen Jahrgänge dar. Außerdem enthält er wichtige Termine, die schon vor Beginn des Studiums feststehen. Die Fakultät Wirtschaft empfiehlt allen Studienanfänger*innen zu Beginn des Studiums, unabhängig von der erreichten Abiturnote, die Teilnahme am Vorkurs Mathematik, um einen möglichst gleichen und für das Studium optimalen Kenntnisstand zu erzielen.",
+    "id": "",
+    "question": "Muss jeder vor dem Studium einen Mathevorkurs besuchen?",
+    "title": ""
+  },
+  "question16":{
+    "answers": {
+      "answer_start": [
+        188
+      ],
+      "text":[
+
+      ]
+    },
+    "context": "Wirtschaftsinformatiker*innen benötigen gleichermaßen Informatikkenntnisse und betriebswirtschaftliches Fachwissen. Beide Themenbereiche werden im Studium eingehend behandelt: Informatik: aktuelle Methoden der Informatik (Objektorientierte Modellierung, Methoden des Projektmanagements, Business Process Modeling), moderne IT-Technologien für die Entwicklung von Software-Systemen (z. B. Java Enterprise Edition und Web-Services), Grundlagen der Informationstechnik. Betriebswirtschaftslehre: Fachterminologie und zentrale Konzepte der Betriebswirtschaftslehre, um erfolgreich betriebliche Informationssysteme entwickeln zu können, Methoden der Betriebswirtschaftslehre, um im Projektmanagement sicherzustellen, dass Projektvorgaben zu Kosten, Zeit und Qualität eingehalten werden. Zusatzkompetenzen: VWL, Recht, Mathematik, Sprachveranstaltungen Seminare zum Ausbau der Sozialkompetenz. Auslandserfahrung Der Studiengang Wirtschaftsinformatik bietet seinen Studierenden die Möglichkeit, in der Theoriephase ein Auslandssemester an einer Partneruniversität in Großbritannien, USA, Frankreich, Australien, Irland, Skandinavien und Singapur zu absolvieren. Ein solches Auslandssemester fügt sich nahtlos in den Studienablauf ein.",
+    "id": "",
+    "question": "Was wird auf dem Themengebiet Informatik an der DHBW gelehrt?",
+    "title": ""
+  },
+  "question17":{
+    "answers": {
+      "answer_start": [
+        493
+      ],
+      "text":[
+
+      ]
+    },
+    "context": "Wirtschaftsinformatiker*innen benötigen gleichermaßen Informatikkenntnisse und betriebswirtschaftliches Fachwissen. Beide Themenbereiche werden im Studium eingehend behandelt: Informatik: aktuelle Methoden der Informatik (Objektorientierte Modellierung, Methoden des Projektmanagements, Business Process Modeling), moderne IT-Technologien für die Entwicklung von Software-Systemen (z. B. Java Enterprise Edition und Web-Services), Grundlagen der Informationstechnik. Betriebswirtschaftslehre: Fachterminologie und zentrale Konzepte der Betriebswirtschaftslehre, um erfolgreich betriebliche Informationssysteme entwickeln zu können, Methoden der Betriebswirtschaftslehre, um im Projektmanagement sicherzustellen, dass Projektvorgaben zu Kosten, Zeit und Qualität eingehalten werden. Zusatzkompetenzen: VWL, Recht, Mathematik, Sprachveranstaltungen Seminare zum Ausbau der Sozialkompetenz. Auslandserfahrung Der Studiengang Wirtschaftsinformatik bietet seinen Studierenden die Möglichkeit, in der Theoriephase ein Auslandssemester an einer Partneruniversität in Großbritannien, USA, Frankreich, Australien, Irland, Skandinavien und Singapur zu absolvieren. Ein solches Auslandssemester fügt sich nahtlos in den Studienablauf ein.",
+    "id": "",
+    "question": "Was wird auf dem Themengebiet Betriebswirtschaftslehre an der DHBW gelehrt?",
+    "title": ""
+  },
+  "question18":{
+    "answers": {
+      "answer_start": [
+        801
+      ],
+      "text":[
+
+      ]
+    },
+    "context": "Wirtschaftsinformatiker*innen benötigen gleichermaßen Informatikkenntnisse und betriebswirtschaftliches Fachwissen. Beide Themenbereiche werden im Studium eingehend behandelt: Informatik: aktuelle Methoden der Informatik (Objektorientierte Modellierung, Methoden des Projektmanagements, Business Process Modeling), moderne IT-Technologien für die Entwicklung von Software-Systemen (z. B. Java Enterprise Edition und Web-Services), Grundlagen der Informationstechnik. Betriebswirtschaftslehre: Fachterminologie und zentrale Konzepte der Betriebswirtschaftslehre, um erfolgreich betriebliche Informationssysteme entwickeln zu können, Methoden der Betriebswirtschaftslehre, um im Projektmanagement sicherzustellen, dass Projektvorgaben zu Kosten, Zeit und Qualität eingehalten werden. Zusatzkompetenzen: VWL, Recht, Mathematik, Sprachveranstaltungen Seminare zum Ausbau der Sozialkompetenz. Auslandserfahrung Der Studiengang Wirtschaftsinformatik bietet seinen Studierenden die Möglichkeit, in der Theoriephase ein Auslandssemester an einer Partneruniversität in Großbritannien, USA, Frankreich, Australien, Irland, Skandinavien und Singapur zu absolvieren. Ein solches Auslandssemester fügt sich nahtlos in den Studienablauf ein.",
+    "id": "",
+    "question": "Werden Zusatzkompetenzen während des Studiums aufgebaut?",
+    "title": ""
+  },
+  "question19":{
+    "answers": {
+      "answer_start": [
+        888
+      ],
+      "text":[
+
+      ]
+    },
+    "context": "Wirtschaftsinformatiker*innen benötigen gleichermaßen Informatikkenntnisse und betriebswirtschaftliches Fachwissen. Beide Themenbereiche werden im Studium eingehend behandelt: Informatik: aktuelle Methoden der Informatik (Objektorientierte Modellierung, Methoden des Projektmanagements, Business Process Modeling), moderne IT-Technologien für die Entwicklung von Software-Systemen (z. B. Java Enterprise Edition und Web-Services), Grundlagen der Informationstechnik. Betriebswirtschaftslehre: Fachterminologie und zentrale Konzepte der Betriebswirtschaftslehre, um erfolgreich betriebliche Informationssysteme entwickeln zu können, Methoden der Betriebswirtschaftslehre, um im Projektmanagement sicherzustellen, dass Projektvorgaben zu Kosten, Zeit und Qualität eingehalten werden. Zusatzkompetenzen: VWL, Recht, Mathematik, Sprachveranstaltungen Seminare zum Ausbau der Sozialkompetenz. Auslandserfahrung Der Studiengang Wirtschaftsinformatik bietet seinen Studierenden die Möglichkeit, in der Theoriephase ein Auslandssemester an einer Partneruniversität in Großbritannien, USA, Frankreich, Australien, Irland, Skandinavien und Singapur zu absolvieren. Ein solches Auslandssemester fügt sich nahtlos in den Studienablauf ein.",
+    "id": "",
+    "question": "Kann man im Ausland studieren?",
+    "title": ""
+  },
+  "question20":{
+    "answers": {
+      "answer_start": [
+        1060
+      ],
+      "text":[
+
+      ]
+    },
+    "context": "Wirtschaftsinformatiker*innen benötigen gleichermaßen Informatikkenntnisse und betriebswirtschaftliches Fachwissen. Beide Themenbereiche werden im Studium eingehend behandelt: Informatik: aktuelle Methoden der Informatik (Objektorientierte Modellierung, Methoden des Projektmanagements, Business Process Modeling), moderne IT-Technologien für die Entwicklung von Software-Systemen (z. B. Java Enterprise Edition und Web-Services), Grundlagen der Informationstechnik. Betriebswirtschaftslehre: Fachterminologie und zentrale Konzepte der Betriebswirtschaftslehre, um erfolgreich betriebliche Informationssysteme entwickeln zu können, Methoden der Betriebswirtschaftslehre, um im Projektmanagement sicherzustellen, dass Projektvorgaben zu Kosten, Zeit und Qualität eingehalten werden. Zusatzkompetenzen: VWL, Recht, Mathematik, Sprachveranstaltungen Seminare zum Ausbau der Sozialkompetenz. Auslandserfahrung Der Studiengang Wirtschaftsinformatik bietet seinen Studierenden die Möglichkeit, in der Theoriephase ein Auslandssemester an einer Partneruniversität in Großbritannien, USA, Frankreich, Australien, Irland, Skandinavien und Singapur zu absolvieren. Ein solches Auslandssemester fügt sich nahtlos in den Studienablauf ein.",
+    "id": "",
+    "question": "Wo sind die Partneruniversitäten der DHBW an denen man studieren kann?",
+    "title": ""
+  },
+  "question21":{
+    "answers": {
+      "answer_start": [
+        1076
+      ],
+      "text":[
+
+      ]
+    },
+    "context": "Wirtschaftsinformatiker*innen benötigen gleichermaßen Informatikkenntnisse und betriebswirtschaftliches Fachwissen. Beide Themenbereiche werden im Studium eingehend behandelt: Informatik: aktuelle Methoden der Informatik (Objektorientierte Modellierung, Methoden des Projektmanagements, Business Process Modeling), moderne IT-Technologien für die Entwicklung von Software-Systemen (z. B. Java Enterprise Edition und Web-Services), Grundlagen der Informationstechnik. Betriebswirtschaftslehre: Fachterminologie und zentrale Konzepte der Betriebswirtschaftslehre, um erfolgreich betriebliche Informationssysteme entwickeln zu können, Methoden der Betriebswirtschaftslehre, um im Projektmanagement sicherzustellen, dass Projektvorgaben zu Kosten, Zeit und Qualität eingehalten werden. Zusatzkompetenzen: VWL, Recht, Mathematik, Sprachveranstaltungen Seminare zum Ausbau der Sozialkompetenz. Auslandserfahrung Der Studiengang Wirtschaftsinformatik bietet seinen Studierenden die Möglichkeit, in der Theoriephase ein Auslandssemester an einer Partneruniversität in Großbritannien, USA, Frankreich, Australien, Irland, Skandinavien und Singapur zu absolvieren. Ein solches Auslandssemester fügt sich nahtlos in den Studienablauf ein.",
+    "id": "",
+    "question": "Kann man ein Auslandssemester in den USA machen?",
+    "title": ""
+  },
+  "question22":{
+    "answers": {
+      "answer_start": [
+        606
+      ],
+      "text":[
+
+      ]
+    },
+    "context": "Wirtschaftsinformatik verbindet Wirtschaftswissenschaften und Informatik. Studierende der Studienrichtung Wirtschaftsinformatik-Application Management der DHBW Stuttgart erlernen, wie IT-Systeme strukturiert entwickelt, systematisch eingeführt und zuverlässig betrieben werden können. Im Fokus des Studiums: aktuelle IT-Technologien, Methoden des Software Engineering, Grundlagen der Betriebswirtschaftslehre, Absolvent*innen sind nach dem Studium qualifiziert, in IT-Projekten kompetent mitzuarbeiten Projekte sicher zu leiten IT-Systeme bzw. ganze IT-Landschaften zu beherrschen und zu überwachen. Neben Motivation, Kommunikationsfähigkeit, Belastbarkeit und Flexibilität sollten angehende Wirtschaftsinformatiker*innen insbesondere über ein ausgeprägtes analytisch-logisches Denkvermögen verfügen.",
+    "id": "",
+    "question": "Welche Eigenschaften benötigen Wirtschaftsinformatiker?",
+    "title": ""
+  },
+  "question23":{
+    "answers": {
+      "answer_start": [
+        106
+      ],
+      "text":[
+
+      ]
+    },
+    "context": "Wirtschaftsinformatik verbindet Wirtschaftswissenschaften und Informatik. Studierende der Studienrichtung Wirtschaftsinformatik-Application Management der DHBW Stuttgart erlernen, wie IT-Systeme strukturiert entwickelt, systematisch eingeführt und zuverlässig betrieben werden können. Im Fokus des Studiums: aktuelle IT-Technologien, Methoden des Software Engineering, Grundlagen der Betriebswirtschaftslehre, Absolvent*innen sind nach dem Studium qualifiziert, in IT-Projekten kompetent mitzuarbeiten Projekte sicher zu leiten IT-Systeme bzw. ganze IT-Landschaften zu beherrschen und zu überwachen. Neben Motivation, Kommunikationsfähigkeit, Belastbarkeit und Flexibilität sollten angehende Wirtschaftsinformatiker*innen insbesondere über ein ausgeprägtes analytisch-logisches Denkvermögen verfügen.",
+    "id": "",
+    "question": "Wie heißt der Studiengang genau?",
+    "title": ""
+  },
+  "question24":{
+    "answers": {
+      "answer_start": [
+        267
+      ],
+      "text":[
+
+      ]
+    },
+    "context": "Häufige Einsatzgebiete unserer Absolvent*innen sind Software-Entwicklung, IT-Management, Betreuung von Standard-Software wie ERP-Systemen, Projektleitung, Optimierung von Geschäftsprozessen und IT-Architektur. Die Studienrichtung bereitet auch auf eine Tätigkeit als Kundenmanager*in vor, bei der sie als Schnittstelle zwischen Fachabteilungen (Auftraggeber von IT-Projekten) und IT-Bereichen (Auftragnehmer) im Einsatz sind.",
+    "id": "",
+    "question": "Kann man nach dem Studium als Kundenmanager arbeiten?",
+    "title": ""
+  }
+}
