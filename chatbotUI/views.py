@@ -27,20 +27,16 @@ class QuestionApiView(APIView):
 
     # 2. Create
     def post(self, request, *args, **kwargs):
-        print("Hello from the post function")
         '''
-        Create the Todo with given todo data
+        Create the To-do with given to-do data
         '''
         question_data = request.data
-        print(f"Question data: {question_data}")
         data = {
             'question': question_data.get('question')
         }
         serializer = QuestionSerializer(data=question_data)
         if serializer.is_valid():
-            serializer.save()
-            print("Gespeichert: ", question_data)
-            return Response(serializer.data, status=status.HTTP_201_CREATED)
+            return Response(data={"answer": "42"}, status=status.HTTP_200_OK)
 
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
@@ -49,7 +45,6 @@ class QuestionDetailApiView(APIView):
     # add permission to check if user is authenticated
 
     def get_object(self):
-        print("Hello from the get_objects function")
         '''
         Helper method to get the object with given todo_id, and user_id
         '''
@@ -60,7 +55,6 @@ class QuestionDetailApiView(APIView):
 
     # 3. Retrieve
     def get(self, request, *args, **kwargs):
-        print("Hello from the get function")
         '''
         Retrieves the Todo with given todo_id
         '''

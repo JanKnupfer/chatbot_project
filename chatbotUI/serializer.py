@@ -4,10 +4,9 @@ from .models import Question
 
 class QuestionSerializer(serializers.ModelSerializer):
     question = serializers.CharField(max_length=180)
-    timestamp = serializers.DateTimeField()
 
     # id = serializers.IntegerField(required=False, default=1)
 
     class Meta:
         model = Question
-        fields = ["question", "timestamp"]
+        fields = ["question"]
