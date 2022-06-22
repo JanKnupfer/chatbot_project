@@ -7,26 +7,24 @@ function search(ele) {
     }
 }
 
-async function transferToRest() {
+function transferToRest(){
+const url = 'http://127.0.0.1:8000/chatbotUI/api';
 
-const params = {
-    param1: question
-};
+let data = {
+  param: question
+}
 
-let url = "http://127.0.0.1:8000/chatbotUI/api";
-        async function transfer() {
-            let response = await fetch(url, {
-                mode: "no-cors",
-                method: 'POST',
-                headers: {
-                    'Accept': 'application/json',
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify(params)
-            })
+var request = new Request(url, {
+	method: 'POST',
+	body: JSON.stringify(data),
+	headers: new Headers()
+});
 
-            }
-
-            }
-
+fetch(request)
+.then(function() {
+    // Handle response we get from the API
+})
+}
 transferToRest();
+
+
