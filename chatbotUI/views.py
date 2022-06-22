@@ -36,6 +36,7 @@ class QuestionApiView(APIView):
         }
         serializer = QuestionSerializer(data=question_data)
         if serializer.is_valid():
+            # return Response(data={"answer": "42"}, status=status.HTTP_200_OK)
             return Response(data={"answer": "42"}, status=status.HTTP_200_OK)
 
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
