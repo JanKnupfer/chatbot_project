@@ -6,11 +6,11 @@ from elastic_search.utilities.login import login
 from utilities.es_search import search_es
 
 
-def question_answer(question="Was ist ein duales Studium"):
+def question_answer(question):
     main(question=question)
 
 
-def main(question):
+def main(question="Was ist ein duales Studium"):
     index_name = get_index_name()
     es = login()
     get_relevant_results_from_elasticsearch(es_connection=es, index_name=index_name, question=question)
