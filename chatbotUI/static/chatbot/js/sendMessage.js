@@ -14,7 +14,7 @@ async function transferToRest() {
     myHeaders.append("Content-Type", "application/json");
 
     const raw = JSON.stringify({
-        "question": "question"
+        "question": question
     });
 
     const requestOptions = {
@@ -25,6 +25,10 @@ async function transferToRest() {
 
     await fetch(url, requestOptions)
         .then(response => response.json())
+        .then(
+            //TODO use answer in frontend
+            value => console.log(value)
+        )
         .catch(error => console.log('error', error));
 
 }

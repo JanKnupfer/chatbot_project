@@ -1,8 +1,9 @@
 from django.shortcuts import render
-from rest_framework.views import APIView
-from rest_framework.response import Response
 from rest_framework import status
-from rest_framework import permissions
+from rest_framework.response import Response
+from rest_framework.views import APIView
+
+from hugging_face.question_answering.question_answering import question_answer
 from .models import Question
 from .serializer import QuestionSerializer
 
@@ -27,17 +28,11 @@ class QuestionApiView(APIView):
 
     # 2. Create
     def post(self, request, *args, **kwargs):
-        '''
-        Create the To-do with given to-do data
-        '''
+        # get post request with question and return answer
         question_data = request.data
-        data = {
-            'question': question_data.get('question')
-        }
         serializer = QuestionSerializer(data=question_data)
         if serializer.is_valid():
-            # return Response(data={"answer": "42"}, status=status.HTTP_200_OK)
-            return Response(data={"answer": "42"}, status=status.HTTP_200_OK)
+            return Response(data=question_answer(question_data.get('question')), status=status.HTTP_200_OK)
 
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
