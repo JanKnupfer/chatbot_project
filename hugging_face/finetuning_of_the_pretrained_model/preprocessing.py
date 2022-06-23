@@ -1,6 +1,8 @@
 from transformers import AutoTokenizer
 
-tokenizer = AutoTokenizer.from_pretrained("deutsche-telekom/bert-multi-english-german-squad2")
+from hugging_face.get_transformer_model_path import get_transformer_model_path
+
+tokenizer = AutoTokenizer.from_pretrained(get_transformer_model_path())
 
 
 def preprocess_function(examples):

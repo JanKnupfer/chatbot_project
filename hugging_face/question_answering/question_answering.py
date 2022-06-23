@@ -1,6 +1,7 @@
 import json
 from pathlib import Path
 
+from django.core.cache import cache
 from transformers import pipeline
 
 from elastic_search.utilities.login import login
@@ -59,10 +60,8 @@ def extract_answer():
     print('looking for best answer...')
     global best_answer, best_answer_index
     # Define QA Pipeline
-    qas = pipeline(
-        model='deutsche-telekom/bert-multi-english-german-squad2',
-        task='question-answering'
-        )
+    qas = get_transformer_model()
+
     # Get the best answer according to Happy face' score from
     # the 10 most relevant database entry's according to elastic search
     best_answer = {'score': 0}
@@ -79,6 +78,20 @@ def extract_answer():
             best_answer_index = index
     # print(best_answer)
     print('best answer found')
+
+
+def get_transformer_model():
+    if cache.get('qa_pipeline') is None:
+        qas = pipeline(
+            model='deutsche-telekom/bert-multi-english-german-squad2',
+            task='question-answering'
+            )
+        cache.set('qa_pipeline', qas)
+        print("set Model in cache")
+        return qas
+    else:
+        print("loaded Model from cache")
+        return cache.get('qa_pipeline')
 
 
 def get_json():

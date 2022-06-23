@@ -1,18 +1,16 @@
 import json
-import os
 import sys
+from pathlib import Path
 
 from elasticsearch import Elasticsearch
 
 
-def get_root_dir():
-    return os.path.abspath('readme.md').split('chatbot_project')[0] + 'chatbot_project'
-
-
 def login():
     print('Connecting to elastic search...')
+    path_to_project_root = Path(__file__).resolve().parent.parent.parent
+    path_to_credentials = Path.joinpath(path_to_project_root, 'elastic_search\\credentials.json')
     # Read credentials
-    with open(f'{get_root_dir()}\\elastic_search\\credentials.json') as file:
+    with open(path_to_credentials) as file:
         data = json.load(file)
         elastic_user = data['username']
         elastic_password = data['password']
