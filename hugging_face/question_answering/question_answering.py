@@ -4,6 +4,7 @@ from pathlib import Path
 from transformers import pipeline
 
 from elastic_search.utilities.login import login
+from hugging_face.question_answering.basic_questions import is_basic_question, basic_answer
 from hugging_face.question_answering.utilities.es_search import search_es
 
 
@@ -12,6 +13,8 @@ def question_answer(question):
 
 
 def main(question="Gibt es die Möglichkeit eines Auslandssemesters?"):
+    if is_basic_question(question):
+        return basic_answer(question)
     index_name = get_index_name()
     es = login()
     answer_count = get_relevant_results_from_elasticsearch(es_connection=es, index_name=index_name, question=question)
