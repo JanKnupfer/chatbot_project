@@ -1,8 +1,10 @@
 let question;
+let answer;
 
 function search(ele) {
     if (event.key === 'Enter') {
         question = ele.value;
+        console.log(question);
         transferToRest();
     }
 }
@@ -23,12 +25,18 @@ async function transferToRest() {
         body: raw
     };
 
-    await fetch(url, requestOptions)
-        .then(response => response.json())
-        .then(
-            //TODO use answer in frontend
-            value => console.log(value)
-        )
-        .catch(error => console.log('error', error));
+
+    var response = await fetch(url, requestOptions);
+    var data = await response.json();
+    data = JSON.parse(data);
+    //Statusabfrage
+    if(data.statuscode === '404'){
+    answer = "Leider gibt es dazu keine Anwort!";
+    }
+    else {
+    answer = data.answer;
+    }
+    document.getElementById('question').innerHTML = question;
+    document.getElementById('answer').innerHTML = answer;
 
 }
