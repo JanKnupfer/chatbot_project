@@ -16,9 +16,10 @@ def main(question="Gibt es die Möglichkeit eines Auslandssemesters?"):
     es = login()
     answer_count = get_relevant_results_from_elasticsearch(es_connection=es, index_name=index_name, question=question)
     if answer_count <= 0:
-        return {
-
-            }
+        return json.dumps({
+            'status': 'No entry in database',
+            'statuscode': '404'
+            })
     extract_answer()
     # write_answer_to_json()
     return get_json()
@@ -79,6 +80,8 @@ def extract_answer():
 
 def get_json():
     answer = {
+        'status': 'Answer found',
+        'statuscode': '200',
         'question': question_text,
         'answer': best_answer["answer"],
         'score': best_answer['score'],
