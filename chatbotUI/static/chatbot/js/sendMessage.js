@@ -26,6 +26,9 @@ async function transferToRest() {
     };
 
 
+    if(question === ''){
+    answer = "Bitte stelle mir eine richtige Frage!"}
+    else{
     var response = await fetch(url, requestOptions);
     var data = await response.json();
     data = JSON.parse(data);
@@ -33,8 +36,9 @@ async function transferToRest() {
     if(data.statuscode === '404'){
     answer = "Leider gibt es dazu keine Anwort!";
     }
-    else {
+    else{
     answer = data.answer;
+    }
     }
     document.getElementById('question').innerHTML = question;
     document.getElementById('answer').innerHTML = answer;

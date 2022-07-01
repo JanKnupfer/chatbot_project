@@ -26,5 +26,7 @@ basic_questions = {
              "Stelle die Fragen bitte als Ausformulierten Text und nicht nur einzelne Worte.",
     "Hallo": "Hallo, ich bin ein Bot.",
     "Wie geht es dir?": "Gut, ich bin ein Bot.",
-    "Was kannst du?": "Ich kann dir helfen, Fragen zu beantworten."
+    "Was kannst du?": "Ich kann dir helfen, Fragen zu beantworten.",
+    "Kann ich dir Fragen stellen?": "Du kannst mich alles zum Studiengang Wirtschaftsinformatik fragen",
+    "Was kann ich dich fragen?": "Alles zum Thema Wirtschaftsinformatik",
     }

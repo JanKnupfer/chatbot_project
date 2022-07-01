@@ -7,9 +7,8 @@ background-color: #b9f;
 }
 .is-btn{
 display: flex;
-flex-direction: row;
-padding-top: 100px;
-padding-left: 270px;
+justify-content: center;
+padding-top: 50px;
 }
 .button-icon{
 padding-right: 10px;

@@ -37,7 +37,6 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   // Add a keyboard event to close all modals
-  //Todo Anica, fix me please
   document.addEventListener('keydown', (event) => {
     const e = event || window.event;
 
