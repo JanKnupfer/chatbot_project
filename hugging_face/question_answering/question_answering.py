@@ -45,7 +45,7 @@ def get_relevant_results_from_elasticsearch(es_connection, index_name, question)
         es_instance=es_connection,
         index_name=index_name,
         question_text=question_text,
-        number_of_results=10
+        number_of_results=5
         )
     # print(f'Question: {question_text}')
     # print(f'Query Duration: {es_answers["took"]} milliseconds')
@@ -68,7 +68,6 @@ def extract_answer():
     best_answer_index = 0
     index = 0
     for hit in es_answers['hits']['hits']:
-        index += 1
         answer = qas(
             question=question_text,
             context=hit['_source']['document_text']
@@ -76,6 +75,7 @@ def extract_answer():
         if answer['score'] > best_answer['score']:
             best_answer = answer
             best_answer_index = index
+            index += 1
     # print(best_answer)
     print('best answer found')
 
