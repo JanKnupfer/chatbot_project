@@ -1,4 +1,4 @@
 {
-  "model": "deutsche-telekom/bert-multi-english-german-squad2",
+  "model": "deepset/gelectra-large-germanquad",
   "local": false
 }
