@@ -38,6 +38,7 @@ def model_test(model_name):
     score = []
     average_score = 0
 
+    start_time_questions = time.time()
     for q in questions:
         answer = qas(
             question=q,
@@ -48,11 +49,14 @@ def model_test(model_name):
         score.append(answer['score'])
 
     average_score = average_score/len(questions)
-    duration = time.time() - start_time
+    end_time = time.time()
 
-    print(f"Model {model_name} took {round(duration, 4)} seconds with an average score of {round(average_score, 4)}")
+    print(f'Model: {model_name}')
+    print(f"Loading Time: {start_time_questions - start_time}")
+    print(f"Answer time per question: {round((end_time - start_time_questions)/len(questions), 4)}")
+    print(f"Average score: {round(average_score, 4)}")
     for a, q, c in zip(answers, questions, score):
-        print(f"Question: {q}, Answer: {a}, Confidence: {round(c, 4)}")
+        print(f"Question: {q}; Answer: {a}; Confidence: {round(c, 4)}")
 
     print()
 
