@@ -22,7 +22,7 @@ def basic_answer(question):
 
 basic_questions = {
     "Hilfe": "Du kannst mir Fragen stellen und ich versuche eine präzise Antwort zu finden. "
-             "Stelle die Fragen bitte als Ausformulierten Text und nicht nur einzelne Worte.",
+             "Stelle die Fragen bitte als ausformulierten Text und nicht nur einzelne Worte.",
     "Wie heißt du?": "Mein Name ist Bert. Ich bin ein Roboter, der dir die Fragen beantwortet.",
     "Hallo": "Hallo, ich bin ein Bot.",
     "Wie geht es dir?": "Gut, ich bin ein Bot.",
