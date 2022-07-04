@@ -8,19 +8,16 @@ of https://www.dhbw-stuttgart.de/studium/bachelor-studienangebot/wirtschaft/wirt
 To get the answer of your question it uses a Hugging Face model to get the exact answer out of the document from
 Elasticsearch.
 
-## How to run the programm
+# Before you start the program
 
 If you want to run this application yourself download the repository.
 Run the install_elastic_search.py script, then the load_data_into_elastic_search.py script.
-Start the Django server with the command:
 
-## How to start the Frontend
+## How to run the program
 
 1. Setup your own environment (venv name of environment): py -m venv venv
 2. Change to virtual environment: env\Scripts\activate
-3. Install django: pip install django
-4. Start django Project: django-admin startproject pychar
-5. Create new Django App: python manage.py startapp chatbotUI
+3. Install the requirements
 6. Start Server: python manage.py runserver
 
-[//]: # (TODO)
+The url of the chatbot should be displayed in the console
