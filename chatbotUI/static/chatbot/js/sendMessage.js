@@ -42,5 +42,5 @@ async function transferToRest() {
     }
     document.getElementById('question').innerHTML = question;
     document.getElementById('answer').innerHTML = answer;
-
+    document.getElementById("send").value = "";
 }
