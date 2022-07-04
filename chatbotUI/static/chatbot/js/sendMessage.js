@@ -1,5 +1,6 @@
 let question;
 let answer;
+let link;
 
 function search(ele) {
     if (event.key === 'Enter') {
@@ -38,6 +39,17 @@ async function transferToRest() {
     }
     else{
     answer = data.answer;
+    }
+    if(data.link !== ''){
+    link = data.link;
+    document.getElementById('link').innerHTML = link;
+    document.getElementById('link').href = link;
+    var div = document.getElementById("visible");
+    div.style.visibility = 'visible';
+    }
+    else{
+    var div = document.getElementById("visible");
+    div.style.visibility = 'hidden';
     }
     }
     document.getElementById('question').innerHTML = question;
